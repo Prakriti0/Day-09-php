@@ -1,0 +1,38 @@
+.box{
+   background-image: url(m.png);
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.innerbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgba(50, 150, 250, 0.8) ;
+
+}
+.id{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: black;
+}
+
+.rating{
+    color:white;
+    font-weight: bolder;
+}
+.title{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+    height:50px;
+    width: 100px;
+}
+.desc{
+    color:Yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: fit-content;
+    height: fit-content;
+    width:50%;
+}
