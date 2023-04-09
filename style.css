@@ -1,28 +1,32 @@
+body{
+    background-image:url(https://img.freepik.com/free-photo/movie-background-collage_23-2149876028.jpg);
+}
 .box{
-   background-image: url(m.png);
     align-items: center;
     margin: 10px;
     padding: 20px;
 }
 .innerbox {
+    border: 1px solid red;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-color: rgba(50, 150, 250, 0.8) ;
+    background:linear-gradient(to right, rgb(135, 135, 235),rgb(163, 152, 157));
 
 }
 .id{
     font-weight: bolder;
     font-size: xx-large;
-    color: black;
+    color:red;
 }
 
 .rating{
-    color:white;
+    color:red;
     font-weight: bolder;
 }
 .title{
-    color: white;
+    color:red;
     font-size: larger;
     font-weight: bolder;
     text-decoration: underline;
@@ -30,9 +34,12 @@
     width: 100px;
 }
 .desc{
-    color:Yellow;
+    color:red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: fit-content;
     height: fit-content;
     width:50%;
+}
+a{
+    color:red;
 }
